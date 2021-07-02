@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@100&display=swap');
+
+body{
+    background-color: white/*#E5E5E5*/;
+    margin: auto;
+}
+
+/* Super Portfolio of */
+
+header section{
+    text-align: center;
+}
+section h3{
+    
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+/* Digital Designer */
+
+section h1{
+
+    font-family: 'Didact Gothic', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 120px;
+    
+    
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    
+    color: #000000;
+}
+
+/* portfolio1 */
+
+section img{
+  color: blue;
+}
+
+/* WORK */
+
+section h2{ 
+    
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 160px;
+    line-height: 188px;
+    
+
+    letter-spacing: -0.09em;
+    text-transform: uppercase; /*braucht man das?*/
+
+    color: #000000;
+}
+
+/* portfolio2 */
+
+article img{
+   
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+/* 2019 */
+
+div p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+    color: #9E9E9E;
+
+
+    
+}
+
+/* Orbis */
+ div p:nth-child(2){
+
+    font-family: 'Didact Gothic', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 147px;
+    
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+ }
+
+ /* Corporate Website */
+
+ div p:nth-child(3){
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    
+    color: #9E9E9E;
+    
+    
+ }
+
+
+ div p:nth-child(4){
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+
+      
+ }
+
+ .diveIn {
+    cursor: pointer;
+}
+
+.diveInPage {
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 5em;
+    margin: 0;
+}
+
+main section:nth-child(odd) {
+    color: white;
+}
+
+main section:nth-child(even) {
+    color: black;
+}
+
+main section:nth-child(odd) article a {
+    display: block;
+    width: 50px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+}
+
+main section:nth-child(even) article a {
+    display: block;
+    width: 50px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+}
+
+/* +++lösung mit klasse+++ +*/
+
+main article:nth-child(odd) {
+    color: white;
+}
+
+main article:nth-child(even) {
+    color: black;
+}
+
+main article:nth-child(odd) div a {
+    display: block;
+    width: 50px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+}
+
+main article:nth-child(even) div p {
+    display: block;
+    width: 50px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+}
+
+/* +++lösung mit klasse+++ +*/
+
+.diveIn {
+    cursor: pointer;
+}
+
+.diveInPage {
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 5em;
+    margin: 0;
+}
+
+main article:nth-child(odd) div .diveIn:hover~.diveInPage {
+    color: white;
+}
+
+main article:nth-child(even) div .diveIn:hover~.diveInPage {
+    color: black;
+}
+
+
+
+
+
+
