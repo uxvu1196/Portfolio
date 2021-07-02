@@ -39,11 +39,7 @@ section h1{
     color: #000000;
 }
 
-/* portfolio1 */
 
-section img{
-  color: blue;
-}
 
 /* WORK */
 
@@ -62,27 +58,31 @@ section h2{
     color: #000000;
 }
 
-/* portfolio2 */
+/* portfolio1 */
 
-article img{
-   
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+main article:nth-of-type(1){
+    background: url("../img/portfolio2.jpg") center/cover no-repeat;
+
+    /*shorthand*/
 }
 
-/* 2019 */
+main article:nth-of-type(1) div:nth-of-type(1){
+    padding:50px 0px 50px 50px; /*50px 0px*/
+}
 
+main article:nth-of-type(1) div:nth-of-type(2){
+    padding:50px 50px 50px 50px; /*50px 0px*/ 
+}
+
+/*-2019*/
 div p:first-child{
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
-    line-height: 23px;
-    letter-spacing: -0.05em;
+ 
 
-    color: #9E9E9E;
-
-
-    
+    color: #9E9E9E; 
 }
 
 /* Orbis */
@@ -92,7 +92,8 @@ div p:first-child{
     font-style: normal;
     font-weight: normal;
     font-size: 100px;
-    line-height: 147px;
+    margin: 0;
+   
     
     
     text-transform: uppercase;
@@ -109,31 +110,14 @@ div p:first-child{
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 23px;
-    letter-spacing: -0.03em;
-    
-    color: #9E9E9E;
-    
-    
+ 
+    color: #9E9E9E;    
  }
 
-
- div p:nth-child(4){
-    font-family: 'Fjalla One', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-
-
-      
- }
 
  .diveIn {
     cursor: pointer;
+    
 }
 
 .diveInPage {
@@ -141,8 +125,15 @@ div p:first-child{
     font-family: 'Fjalla One', sans-serif;
     font-size: 5em;
     margin: 0;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #FFFFFF;
 }
 
+.diveIn:hover ~ .diveInPage{
+    color: pink;
+}
 main section:nth-child(odd) {
     color: white;
 }
@@ -225,14 +216,14 @@ main article:nth-child(even) div p {
     font-size: 5em;
     margin: 0;
 }
-
+/*
 main article:nth-child(odd) div .diveIn:hover~.diveInPage {
     color: white;
 }
 
 main article:nth-child(even) div .diveIn:hover~.diveInPage {
-    color: black;
-}
+    color: black;}*/
+
 
 
 
